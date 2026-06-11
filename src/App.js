@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Card from "./components/Card";
 import ToDoContainer from "./components/ToDoContainer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Login from "./Pages/Login";
+import Logins from "./Pages/Logins";
 import Signup from "./Pages/Signup";
 import Landing from "./Pages/Landing";
 
@@ -25,7 +25,7 @@ function App() {
     <BrowserRouter>
   
     <Routes>
-        <Route path="/" element={<Login users={users} setUsers={setUsers}/>}></Route>
+        <Route path="/" element={<Logins users={users} setUsers={setUsers}/>}></Route>
         <Route path="/signup" element={<Signup users={users} setUsers={setUsers}/>}></Route>
         <Route path="/landing" element={<Landing/>}></Route>
     </Routes>

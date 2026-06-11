@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, useNavigate, Navigate } from "react-router-dom"
 
 
-const Login = (props)=>{
+const Logins = (props)=>{
     const navigate = useNavigate()
     const [eusername,setEusername] = useState("")
     const [epassword,setEpassword] = useState("")
@@ -66,4 +66,4 @@ const Login = (props)=>{
 
     )
 }
-export default Login
+export default Logins
