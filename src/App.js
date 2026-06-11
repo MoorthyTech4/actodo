@@ -1,7 +1,4 @@
 import { useState } from "react";
-import Header from "./components/Header";
-import Card from "./components/Card";
-import ToDoContainer from "./components/ToDoContainer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Logins from "./Pages/Logins";
 import Signup from "./Pages/Signup";
